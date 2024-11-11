@@ -4,6 +4,12 @@ public class Car {
     private String color;
     private int power;
     protected double speed;
+    public static int wheels = 4;
+    public static final String COUNTRY = "USA";
+
+    public static void doSmth() {
+
+    }
 
     public void doBeep() {
         System.out.println("Beep!");

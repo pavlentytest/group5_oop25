@@ -1,11 +1,19 @@
 public class Main {
     public static void main(String[] args) {
 
+
+        Car.wheels = 5;
+        Car.doSmth();
+        Math.sin();
+        Car.COUNTRY = "Germany";
+        Math.PI
+
         int x = 100;
         Car bmw = new Car(); // создать объект класса, экз. класса
         bmw.setColor("Red");
         bmw.setName("Bmw");
         bmw.setPower(45200);
+        System.out.println(bmw.wheels); // 5
         Car toyota = new Car();
          System.out.println(toyota.color);
         System.out.println(toyota.power);
